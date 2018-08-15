@@ -44,10 +44,7 @@ public class User implements Serializable{
 		
 	}
 	
-	public void deleteAllAccounts(String account) {
-		
-	}
-	
+
 
 
 	public boolean isAdmin() {

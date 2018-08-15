@@ -593,3 +593,9 @@
 2018-08-13 15:13:59 WARN  Launcher:14 - warn log
 2018-08-13 15:13:59 ERROR Launcher:15 - error log
 2018-08-13 15:13:59 FATAL Launcher:16 - fatal log
+2018-08-14 09:43:25 TRACE Launcher:11 - trace log
+2018-08-14 09:43:25 DEBUG Launcher:12 - debug log
+2018-08-14 09:43:25 INFO  Launcher:13 - info log
+2018-08-14 09:43:25 WARN  Launcher:14 - warn log
+2018-08-14 09:43:25 ERROR Launcher:15 - error log
+2018-08-14 09:43:25 FATAL Launcher:16 - fatal log
