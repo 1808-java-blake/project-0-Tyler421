@@ -31,7 +31,7 @@ public class AccountDaoJdbc implements AccountDao {
 
 			ResultSet rs = ps.getGeneratedKeys();
 			if (rs.next()) {
-				log.trace("generated account id is" + rs.getInt("accountid"));
+				log.trace("generated account id is " + rs.getInt("accountid"));
 				return rs.getInt("accountid");
 			}
 		} catch (SQLException e) {
@@ -64,8 +64,31 @@ public class AccountDaoJdbc implements AccountDao {
 	public List<Account> findByUserId(int userId) {
 		try (Connection conn = cu.getConnection()) {
 			List<Account> accounts = new ArrayList<>();
-			PreparedStatement ps = conn.prepareStatement("SELECT * FROM weapons WHERE userid=?");
+			PreparedStatement ps = conn.prepareStatement("SELECT * FROM accounts WHERE userid=?");
 			ps.setInt(1, userId);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next()) {
+				Account u = new Account();
+				u.setAccountName(rs.getString("accountname"));
+				u.setUserId(rs.getInt("userid"));
+				u.setAccountType(rs.getString("accounttype"));
+				u.setBalance(rs.getDouble("balance"));
+
+				accounts.add(u);
+			}
+			return accounts;
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+	public List<Account> findByAccountName(String accountName) {
+		try (Connection conn = cu.getConnection()) {
+			List<Account> accounts = new ArrayList<>();
+			PreparedStatement ps = conn.prepareStatement("SELECT * FROM accounts WHERE accountname=?");
+			ps.setString(1, accountName);
 			ResultSet rs = ps.executeQuery();
 			while (rs.next()) {
 				Account u = new Account();

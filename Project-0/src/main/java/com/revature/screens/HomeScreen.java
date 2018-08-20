@@ -27,8 +27,7 @@ public class HomeScreen implements Screen {
 		String selection = scan.nextLine();
 		switch (selection) {
 		case "1":
-			System.out.println("selected 1 not yet implemented that screen");
-			break;
+			return new AddMoneyScreen();
 		case "2":
 			System.out.println("selected 2 not yet implemented that screen");
 			break;

@@ -886,3 +886,42 @@
 2018-08-20 12:32:55 DEBUG LoginScreen:23 - started login screen
 2018-08-20 12:33:01 INFO  LoginScreen:39 - user succefully logged in
 2018-08-20 12:33:01 INFO  LoginScreen:40 - welcome User [id=4, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]
+2018-08-20 12:33:32 TRACE AccountDaoJdbc:30 - 1 records created
+2018-08-20 12:33:32 TRACE AccountDaoJdbc:34 - generated account id is4
+2018-08-20 12:33:32 INFO  RegisterAccountScreen:39 - created accountAccount [userId=4accountId=4, accountName=first account, balance=0.0, accountType=Checking, TransHistory=null]
+2018-08-20 12:38:05 TRACE Launcher:11 - trace log
+2018-08-20 12:38:05 DEBUG Launcher:12 - debug log
+2018-08-20 12:38:05 INFO  Launcher:13 - info log
+2018-08-20 12:38:05 WARN  Launcher:14 - warn log
+2018-08-20 12:38:05 ERROR Launcher:15 - error log
+2018-08-20 12:38:05 FATAL Launcher:16 - fatal log
+2018-08-20 12:38:05 DEBUG LoginScreen:23 - started login screen
+2018-08-20 12:38:14 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 12:38:14 INFO  LoginScreen:40 - welcome User [id=4, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]
+2018-08-20 12:39:22 TRACE Launcher:11 - trace log
+2018-08-20 12:39:22 DEBUG Launcher:12 - debug log
+2018-08-20 12:39:22 INFO  Launcher:13 - info log
+2018-08-20 12:39:22 WARN  Launcher:14 - warn log
+2018-08-20 12:39:22 ERROR Launcher:15 - error log
+2018-08-20 12:39:22 FATAL Launcher:16 - fatal log
+2018-08-20 12:39:22 DEBUG LoginScreen:23 - started login screen
+2018-08-20 12:39:27 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 12:39:27 INFO  LoginScreen:40 - welcome User [id=4, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]
+2018-08-20 13:07:55 TRACE Launcher:11 - trace log
+2018-08-20 13:07:55 DEBUG Launcher:12 - debug log
+2018-08-20 13:07:55 INFO  Launcher:13 - info log
+2018-08-20 13:07:55 WARN  Launcher:14 - warn log
+2018-08-20 13:07:55 ERROR Launcher:15 - error log
+2018-08-20 13:07:55 FATAL Launcher:16 - fatal log
+2018-08-20 13:07:55 DEBUG LoginScreen:23 - started login screen
+2018-08-20 13:08:01 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 13:08:01 INFO  LoginScreen:40 - welcome User [id=4, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]
+2018-08-20 13:10:09 TRACE Launcher:11 - trace log
+2018-08-20 13:10:09 DEBUG Launcher:12 - debug log
+2018-08-20 13:10:09 INFO  Launcher:13 - info log
+2018-08-20 13:10:09 WARN  Launcher:14 - warn log
+2018-08-20 13:10:09 ERROR Launcher:15 - error log
+2018-08-20 13:10:09 FATAL Launcher:16 - fatal log
+2018-08-20 13:10:09 DEBUG LoginScreen:23 - started login screen
+2018-08-20 13:10:15 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 13:10:15 INFO  LoginScreen:40 - welcome User [id=4, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]

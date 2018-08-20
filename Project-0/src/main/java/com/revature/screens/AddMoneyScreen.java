@@ -1,52 +1,64 @@
 package com.revature.screens;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+
+import org.apache.log4j.Logger;
 
 import com.revature.beans.Account;
 import com.revature.beans.CurrentValues;
 import com.revature.daos.AccountDao;
 import com.revature.daos.UserDao;
+import com.revature.util.AppState;
+import com.revature.util.ConnectionUtil;
 
 public class AddMoneyScreen implements Screen {
 
-	private CurrentValues currentValues = CurrentValues.getInstance();
+	private AppState state = AppState.state;
 	private Scanner scan = new Scanner(System.in);
 	private AccountDao ad = AccountDao.currentAccountDao;
 	private UserDao ud = UserDao.currentUserDao;
+	private Logger log = Logger.getRootLogger();
+	private ConnectionUtil cu = ConnectionUtil.cu;
 
 	@Override
 	public Screen start() throws InterruptedException {
-		if (currentValues.currentUser.getAccounts() == null) {
-			System.out.println("No accounts to display, returning to menu...");
-			Thread.sleep(3000);
-			return new HomeScreen();
-		}
-		ArrayList<String> accounts = currentValues.currentUser.getAccounts();
-		System.out.println("Accounts:");
-		for (int i = 0; i < accounts.size(); i++) {
-			System.out.println((i + 1) + ": " + accounts.get(i));
-		}
+//		if (state.getCurrentUser().getAccounts() == null) {
+//			System.out.println("No accounts to display, returning to menu...");
+//			Thread.sleep(3000);
+//			return new HomeScreen();
+//		}
+		List<Account> accounts = ad.findByUserId(state.getCurrentUser().getId());
+		accounts.stream().forEach((each) -> {
+			System.out.println(each);
+		});
 		System.out.println("enter the name of the account you want to deposit in:");
 
-//Needs new implementation: 		
-//		String selectedAccount = scan.nextLine();
-//		Account a = new Account();
-//
-//		if (accounts.contains(selectedAccount)) {
-//			a = ad.findByAccountName(selectedAccount);
-//			if (a == null) {
-//				System.out.println("account file not found");
-//				return this;
-//			}
-//			System.out.println("enter the amount you want to deposit:");
-//			String selectedAmount = scan.nextLine();
-//
-//			// currentValues.currentAccount = a;
-////			a.depositFunds(depAmount);
-//			return null;
-//		}
-		return null;
+		String selectedAccount = scan.nextLine();
+		List<Account> a = ad.findByAccountName(selectedAccount);
+		log.trace("Account specified ready for deposit");
+		System.out.println("enter the amount you want to deposit:");
+		String selectedAmount = scan.nextLine();
+		double selectedAmountAsDouble = Double.parseDouble(selectedAmount);
+		
+		try (Connection conn = cu.getConnection()) {
+			PreparedStatement ps = conn.prepareStatement("UPDATE accounts SET balance=? WHERE accountname=?");
+			ps.setDouble(1, selectedAmountAsDouble);
+			ps.setString(2, selectedAccount);
+			ResultSet rs = ps.executeQuery();
+		}
+
+		catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		return new HomeScreen();
 
 	}
 }

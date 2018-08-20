@@ -9,6 +9,7 @@ public static final AccountDao currentAccountDao = new AccountDaoJdbc();
 	
 	int createAccount(Account u);
 	List<Account> findByUserId(int userId);
+	List<Account> findByAccountName(String accountName);
 	void updateAccount(Account u);
 	void deleteAccount(Account u);
 
