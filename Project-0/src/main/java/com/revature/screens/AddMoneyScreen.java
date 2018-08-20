@@ -28,22 +28,24 @@ public class AddMoneyScreen implements Screen {
 			System.out.println((i + 1) + ": " + accounts.get(i));
 		}
 		System.out.println("enter the name of the account you want to deposit in:");
-		String selectedAccount = scan.nextLine();
-		Account a = new Account();
 
-		if (accounts.contains(selectedAccount)) {
-			a = ad.findByAccountName(selectedAccount);
-			if (a == null) {
-				System.out.println("account file not found");
-				return this;
-			}
-			System.out.println("enter the amount you want to deposit:");
-			String selectedAmount = scan.nextLine();
-
-			// currentValues.currentAccount = a;
-//			a.depositFunds(depAmount);
-			return null;
-		}
+//Needs new implementation: 		
+//		String selectedAccount = scan.nextLine();
+//		Account a = new Account();
+//
+//		if (accounts.contains(selectedAccount)) {
+//			a = ad.findByAccountName(selectedAccount);
+//			if (a == null) {
+//				System.out.println("account file not found");
+//				return this;
+//			}
+//			System.out.println("enter the amount you want to deposit:");
+//			String selectedAmount = scan.nextLine();
+//
+//			// currentValues.currentAccount = a;
+////			a.depositFunds(depAmount);
+//			return null;
+//		}
 		return null;
 
 	}

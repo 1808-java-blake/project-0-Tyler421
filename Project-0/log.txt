@@ -599,3 +599,290 @@
 2018-08-14 09:43:25 WARN  Launcher:14 - warn log
 2018-08-14 09:43:25 ERROR Launcher:15 - error log
 2018-08-14 09:43:25 FATAL Launcher:16 - fatal log
+2018-08-20 08:23:33 TRACE Launcher:11 - trace log
+2018-08-20 08:23:33 DEBUG Launcher:12 - debug log
+2018-08-20 08:23:33 INFO  Launcher:13 - info log
+2018-08-20 08:23:33 WARN  Launcher:14 - warn log
+2018-08-20 08:23:33 ERROR Launcher:15 - error log
+2018-08-20 08:23:33 FATAL Launcher:16 - fatal log
+2018-08-20 10:14:16 TRACE Launcher:11 - trace log
+2018-08-20 10:14:16 DEBUG Launcher:12 - debug log
+2018-08-20 10:14:16 INFO  Launcher:13 - info log
+2018-08-20 10:14:16 WARN  Launcher:14 - warn log
+2018-08-20 10:14:16 ERROR Launcher:15 - error log
+2018-08-20 10:14:16 FATAL Launcher:16 - fatal log
+2018-08-20 10:14:16 DEBUG LoginScreen:24 - started login screen
+2018-08-20 10:14:38 DEBUG LoginScreen:24 - started login screen
+2018-08-20 10:14:52 DEBUG LoginScreen:24 - started login screen
+2018-08-20 10:14:57 DEBUG LoginScreen:24 - started login screen
+2018-08-20 10:15:03 INFO  LoginScreen:40 - user succefully logged in
+2018-08-20 10:15:03 INFO  LoginScreen:41 - welcomeUser [id=0, username=Tyler421, password=password, firstName=Tyler, lastName=Couzens, accounts=[My checking account, my first account, My only account]]
+2018-08-20 10:16:28 TRACE Launcher:11 - trace log
+2018-08-20 10:16:28 DEBUG Launcher:12 - debug log
+2018-08-20 10:16:28 INFO  Launcher:13 - info log
+2018-08-20 10:16:28 WARN  Launcher:14 - warn log
+2018-08-20 10:16:28 ERROR Launcher:15 - error log
+2018-08-20 10:16:28 FATAL Launcher:16 - fatal log
+2018-08-20 10:16:28 DEBUG LoginScreen:24 - started login screen
+2018-08-20 10:16:35 INFO  LoginScreen:40 - user succefully logged in
+2018-08-20 10:16:35 INFO  LoginScreen:41 - welcomeUser [id=0, username=Tyler421, password=password, firstName=Tyler, lastName=Couzens, accounts=[My checking account, my first account, My only account]]
+2018-08-20 10:24:30 TRACE Launcher:11 - trace log
+2018-08-20 10:24:30 DEBUG Launcher:12 - debug log
+2018-08-20 10:24:30 INFO  Launcher:13 - info log
+2018-08-20 10:24:30 WARN  Launcher:14 - warn log
+2018-08-20 10:24:30 ERROR Launcher:15 - error log
+2018-08-20 10:24:30 FATAL Launcher:16 - fatal log
+2018-08-20 10:24:30 DEBUG LoginScreen:24 - started login screen
+2018-08-20 10:24:55 DEBUG LoginScreen:24 - started login screen
+2018-08-20 10:34:51 TRACE Launcher:11 - trace log
+2018-08-20 10:34:51 DEBUG Launcher:12 - debug log
+2018-08-20 10:34:51 INFO  Launcher:13 - info log
+2018-08-20 10:34:51 WARN  Launcher:14 - warn log
+2018-08-20 10:34:51 ERROR Launcher:15 - error log
+2018-08-20 10:34:51 FATAL Launcher:16 - fatal log
+2018-08-20 10:34:51 DEBUG LoginScreen:24 - started login screen
+2018-08-20 10:35:12 ERROR UserDaoJdbc:41 - FATAL: database "revature-1808.caqouygu0qnf.us-east-2.rds.amazonaws.com:5432/pos" does not exist
+2018-08-20 10:35:12 ERROR UserDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 10:35:12 ERROR UserDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+2018-08-20 10:35:12 ERROR UserDaoJdbc:43 - org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+2018-08-20 10:35:12 ERROR UserDaoJdbc:43 - org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+2018-08-20 10:35:12 ERROR UserDaoJdbc:43 - org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+2018-08-20 10:35:12 ERROR UserDaoJdbc:43 - org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+2018-08-20 10:35:12 ERROR UserDaoJdbc:43 - org.postgresql.Driver.makeConnection(Driver.java:452)
+2018-08-20 10:35:12 ERROR UserDaoJdbc:43 - org.postgresql.Driver.connect(Driver.java:254)
+2018-08-20 10:35:12 ERROR UserDaoJdbc:43 - java.sql.DriverManager.getConnection(Unknown Source)
+2018-08-20 10:35:12 ERROR UserDaoJdbc:43 - java.sql.DriverManager.getConnection(Unknown Source)
+2018-08-20 10:35:12 ERROR UserDaoJdbc:43 - com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:29)
+2018-08-20 10:35:12 ERROR UserDaoJdbc:43 - com.revature.daos.UserDaoJdbc.createUser(UserDaoJdbc.java:30)
+2018-08-20 10:35:12 ERROR UserDaoJdbc:43 - com.revature.screens.RegisterUserScreen.start(RegisterUserScreen.java:27)
+2018-08-20 10:35:12 ERROR UserDaoJdbc:43 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 10:35:12 WARN  UserDaoJdbc:45 - failed to create new user
+2018-08-20 10:35:12 DEBUG LoginScreen:24 - started login screen
+2018-08-20 11:01:27 TRACE Launcher:11 - trace log
+2018-08-20 11:01:27 DEBUG Launcher:12 - debug log
+2018-08-20 11:01:27 INFO  Launcher:13 - info log
+2018-08-20 11:01:27 WARN  Launcher:14 - warn log
+2018-08-20 11:01:27 ERROR Launcher:15 - error log
+2018-08-20 11:01:27 FATAL Launcher:16 - fatal log
+2018-08-20 11:01:27 DEBUG LoginScreen:24 - started login screen
+2018-08-20 11:01:39 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-20 11:01:39 DEBUG LoginScreen:24 - started login screen
+2018-08-20 11:01:56 DEBUG LoginScreen:24 - started login screen
+2018-08-20 11:05:09 TRACE Launcher:11 - trace log
+2018-08-20 11:05:09 DEBUG Launcher:12 - debug log
+2018-08-20 11:05:09 INFO  Launcher:13 - info log
+2018-08-20 11:05:09 WARN  Launcher:14 - warn log
+2018-08-20 11:05:09 ERROR Launcher:15 - error log
+2018-08-20 11:05:09 FATAL Launcher:16 - fatal log
+2018-08-20 11:05:09 DEBUG LoginScreen:24 - started login screen
+2018-08-20 11:05:16 WARN  UserDaoJdbc:74 - failed to find user with provided credentials from the db
+2018-08-20 11:05:16 DEBUG LoginScreen:24 - started login screen
+2018-08-20 11:05:28 INFO  LoginScreen:40 - user succefully logged in
+2018-08-20 11:05:28 INFO  LoginScreen:41 - welcomeUser [id=0, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]
+2018-08-20 11:24:58 TRACE Launcher:11 - trace log
+2018-08-20 11:24:58 DEBUG Launcher:12 - debug log
+2018-08-20 11:24:58 INFO  Launcher:13 - info log
+2018-08-20 11:24:58 WARN  Launcher:14 - warn log
+2018-08-20 11:24:58 ERROR Launcher:15 - error log
+2018-08-20 11:24:58 FATAL Launcher:16 - fatal log
+2018-08-20 11:24:58 DEBUG LoginScreen:24 - started login screen
+2018-08-20 11:25:12 INFO  LoginScreen:40 - user succefully logged in
+2018-08-20 11:25:12 INFO  LoginScreen:41 - welcomeUser [id=0, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]
+2018-08-20 11:25:38 ERROR AccountDaoJdbc:39 - ERROR: column "account_id" does not exist
+  Hint: Perhaps you meant to reference the column "accounts.accountid".
+  Position: 97
+2018-08-20 11:25:38 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 11:25:38 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 11:25:38 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 11:25:38 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 11:25:38 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 11:25:38 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 11:25:38 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 11:25:38 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 11:25:38 ERROR AccountDaoJdbc:41 - com.revature.screens.RegisterAccountScreen.start(RegisterAccountScreen.java:33)
+2018-08-20 11:25:38 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 11:25:38 ERROR RegisterAccountScreen:35 - failed to create account
+2018-08-20 11:25:38 DEBUG LoginScreen:24 - started login screen
+2018-08-20 11:29:03 TRACE Launcher:11 - trace log
+2018-08-20 11:29:03 DEBUG Launcher:12 - debug log
+2018-08-20 11:29:03 INFO  Launcher:13 - info log
+2018-08-20 11:29:03 WARN  Launcher:14 - warn log
+2018-08-20 11:29:03 ERROR Launcher:15 - error log
+2018-08-20 11:29:03 FATAL Launcher:16 - fatal log
+2018-08-20 11:29:03 DEBUG LoginScreen:24 - started login screen
+2018-08-20 11:29:10 INFO  LoginScreen:40 - user succefully logged in
+2018-08-20 11:29:10 INFO  LoginScreen:41 - welcomeUser [id=0, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]
+2018-08-20 11:29:21 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "userid_fk"
+  Detail: Key (userid)=(0) is not present in table "users".
+2018-08-20 11:29:21 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 11:29:21 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 11:29:21 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 11:29:21 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 11:29:21 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 11:29:21 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 11:29:21 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 11:29:21 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 11:29:21 ERROR AccountDaoJdbc:41 - com.revature.screens.RegisterAccountScreen.start(RegisterAccountScreen.java:33)
+2018-08-20 11:29:21 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 11:29:21 ERROR RegisterAccountScreen:35 - failed to create account
+2018-08-20 11:29:21 DEBUG LoginScreen:24 - started login screen
+2018-08-20 11:35:16 TRACE Launcher:11 - trace log
+2018-08-20 11:35:16 DEBUG Launcher:12 - debug log
+2018-08-20 11:35:16 INFO  Launcher:13 - info log
+2018-08-20 11:35:16 WARN  Launcher:14 - warn log
+2018-08-20 11:35:16 ERROR Launcher:15 - error log
+2018-08-20 11:35:16 FATAL Launcher:16 - fatal log
+2018-08-20 11:35:16 DEBUG LoginScreen:23 - started login screen
+2018-08-20 11:35:25 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 11:35:25 INFO  LoginScreen:40 - welcomeUser [id=0, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]
+2018-08-20 11:35:34 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "userid_fk"
+  Detail: Key (userid)=(0) is not present in table "users".
+2018-08-20 11:35:34 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 11:35:34 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 11:35:34 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 11:35:34 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 11:35:34 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 11:35:34 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 11:35:34 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 11:35:34 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 11:35:34 ERROR AccountDaoJdbc:41 - com.revature.screens.RegisterAccountScreen.start(RegisterAccountScreen.java:33)
+2018-08-20 11:35:34 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 11:35:34 ERROR RegisterAccountScreen:35 - failed to create account
+2018-08-20 11:35:34 DEBUG LoginScreen:23 - started login screen
+2018-08-20 11:38:02 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-20 11:38:02 DEBUG LoginScreen:23 - started login screen
+2018-08-20 11:38:11 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 11:38:11 INFO  LoginScreen:40 - welcomeUser [id=0, username=test123, password=null, firstName=test, lastName=id, accounts=null]
+2018-08-20 11:47:18 TRACE Launcher:11 - trace log
+2018-08-20 11:47:18 DEBUG Launcher:12 - debug log
+2018-08-20 11:47:18 INFO  Launcher:13 - info log
+2018-08-20 11:47:18 WARN  Launcher:14 - warn log
+2018-08-20 11:47:18 ERROR Launcher:15 - error log
+2018-08-20 11:47:18 FATAL Launcher:16 - fatal log
+2018-08-20 11:47:18 DEBUG LoginScreen:23 - started login screen
+2018-08-20 11:47:24 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 11:47:24 INFO  LoginScreen:40 - welcome User [id=0, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]
+2018-08-20 11:47:36 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "userid_fk"
+  Detail: Key (userid)=(0) is not present in table "users".
+2018-08-20 11:47:36 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 11:47:36 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 11:47:36 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 11:47:36 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 11:47:36 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 11:47:36 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 11:47:36 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 11:47:36 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 11:47:36 ERROR AccountDaoJdbc:41 - com.revature.screens.RegisterAccountScreen.start(RegisterAccountScreen.java:33)
+2018-08-20 11:47:36 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 11:47:36 ERROR RegisterAccountScreen:35 - failed to create account
+2018-08-20 11:47:36 DEBUG LoginScreen:23 - started login screen
+2018-08-20 11:49:43 TRACE Launcher:11 - trace log
+2018-08-20 11:49:43 DEBUG Launcher:12 - debug log
+2018-08-20 11:49:43 INFO  Launcher:13 - info log
+2018-08-20 11:49:43 WARN  Launcher:14 - warn log
+2018-08-20 11:49:43 ERROR Launcher:15 - error log
+2018-08-20 11:49:43 FATAL Launcher:16 - fatal log
+2018-08-20 11:49:43 DEBUG LoginScreen:23 - started login screen
+2018-08-20 11:49:48 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 11:49:48 INFO  LoginScreen:40 - welcome User [id=0, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]
+2018-08-20 11:49:59 ERROR AccountDaoJdbc:39 - ERROR: column "userid" of relation "accounts" does not exist
+  Position: 58
+2018-08-20 11:49:59 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 11:49:59 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 11:49:59 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 11:49:59 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 11:49:59 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 11:49:59 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 11:49:59 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 11:49:59 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 11:49:59 ERROR AccountDaoJdbc:41 - com.revature.screens.RegisterAccountScreen.start(RegisterAccountScreen.java:33)
+2018-08-20 11:49:59 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 11:49:59 ERROR RegisterAccountScreen:35 - failed to create account
+2018-08-20 11:49:59 DEBUG LoginScreen:23 - started login screen
+2018-08-20 11:51:11 TRACE Launcher:11 - trace log
+2018-08-20 11:51:11 DEBUG Launcher:12 - debug log
+2018-08-20 11:51:11 INFO  Launcher:13 - info log
+2018-08-20 11:51:11 WARN  Launcher:14 - warn log
+2018-08-20 11:51:11 ERROR Launcher:15 - error log
+2018-08-20 11:51:11 FATAL Launcher:16 - fatal log
+2018-08-20 11:51:11 DEBUG LoginScreen:23 - started login screen
+2018-08-20 11:51:16 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 11:51:16 INFO  LoginScreen:40 - welcome User [id=0, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]
+2018-08-20 11:51:26 TRACE AccountDaoJdbc:30 - 1 records created
+2018-08-20 11:51:26 TRACE AccountDaoJdbc:34 - generated account id is1
+2018-08-20 11:51:26 INFO  RegisterAccountScreen:39 - created accountAccount [userId=0accountId=1, accountName=first account, balance=0.0, accountType=Checking, TransHistory=null]
+2018-08-20 12:04:43 TRACE Launcher:11 - trace log
+2018-08-20 12:04:43 DEBUG Launcher:12 - debug log
+2018-08-20 12:04:43 INFO  Launcher:13 - info log
+2018-08-20 12:04:43 WARN  Launcher:14 - warn log
+2018-08-20 12:04:43 ERROR Launcher:15 - error log
+2018-08-20 12:04:43 FATAL Launcher:16 - fatal log
+2018-08-20 12:04:43 DEBUG LoginScreen:23 - started login screen
+2018-08-20 12:04:49 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 12:04:49 INFO  LoginScreen:40 - welcome User [id=0, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]
+2018-08-20 12:05:24 TRACE Launcher:11 - trace log
+2018-08-20 12:05:24 DEBUG Launcher:12 - debug log
+2018-08-20 12:05:24 INFO  Launcher:13 - info log
+2018-08-20 12:05:24 WARN  Launcher:14 - warn log
+2018-08-20 12:05:24 ERROR Launcher:15 - error log
+2018-08-20 12:05:24 FATAL Launcher:16 - fatal log
+2018-08-20 12:05:24 DEBUG LoginScreen:23 - started login screen
+2018-08-20 12:05:37 TRACE UserDaoJdbc:38 - 1 records created
+2018-08-20 12:05:37 DEBUG LoginScreen:23 - started login screen
+2018-08-20 12:05:45 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 12:05:45 INFO  LoginScreen:40 - welcome User [id=0, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]
+2018-08-20 12:06:02 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "userid_fk"
+  Detail: Key (userid)=(0) is not present in table "users".
+2018-08-20 12:06:02 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 12:06:02 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 12:06:02 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 12:06:02 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 12:06:02 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 12:06:02 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 12:06:02 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 12:06:02 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 12:06:02 ERROR AccountDaoJdbc:41 - com.revature.screens.RegisterAccountScreen.start(RegisterAccountScreen.java:33)
+2018-08-20 12:06:02 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 12:06:02 ERROR RegisterAccountScreen:35 - failed to create account
+2018-08-20 12:06:02 DEBUG LoginScreen:23 - started login screen
+2018-08-20 12:08:39 TRACE Launcher:11 - trace log
+2018-08-20 12:08:39 DEBUG Launcher:12 - debug log
+2018-08-20 12:08:39 INFO  Launcher:13 - info log
+2018-08-20 12:08:39 WARN  Launcher:14 - warn log
+2018-08-20 12:08:39 ERROR Launcher:15 - error log
+2018-08-20 12:08:39 FATAL Launcher:16 - fatal log
+2018-08-20 12:08:39 DEBUG LoginScreen:23 - started login screen
+2018-08-20 12:09:17 TRACE Launcher:11 - trace log
+2018-08-20 12:09:17 DEBUG Launcher:12 - debug log
+2018-08-20 12:09:17 INFO  Launcher:13 - info log
+2018-08-20 12:09:17 WARN  Launcher:14 - warn log
+2018-08-20 12:09:17 ERROR Launcher:15 - error log
+2018-08-20 12:09:17 FATAL Launcher:16 - fatal log
+2018-08-20 12:09:17 DEBUG LoginScreen:23 - started login screen
+2018-08-20 12:09:29 TRACE UserDaoJdbc:44 - 1 records created
+2018-08-20 12:09:29 DEBUG LoginScreen:23 - started login screen
+2018-08-20 12:09:35 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 12:09:35 INFO  LoginScreen:40 - welcome User [id=0, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]
+2018-08-20 12:09:54 ERROR AccountDaoJdbc:39 - ERROR: insert or update on table "accounts" violates foreign key constraint "userid_fk"
+  Detail: Key (userid)=(0) is not present in table "users".
+2018-08-20 12:09:54 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+2018-08-20 12:09:54 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2178)
+2018-08-20 12:09:54 ERROR AccountDaoJdbc:41 - org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+2018-08-20 12:09:54 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+2018-08-20 12:09:54 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+2018-08-20 12:09:54 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+2018-08-20 12:09:54 ERROR AccountDaoJdbc:41 - org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:132)
+2018-08-20 12:09:54 ERROR AccountDaoJdbc:41 - com.revature.daos.AccountDaoJdbc.createAccount(AccountDaoJdbc.java:29)
+2018-08-20 12:09:54 ERROR AccountDaoJdbc:41 - com.revature.screens.RegisterAccountScreen.start(RegisterAccountScreen.java:33)
+2018-08-20 12:09:54 ERROR AccountDaoJdbc:41 - com.revature.launcher.Launcher.main(Launcher.java:20)
+2018-08-20 12:09:54 ERROR RegisterAccountScreen:35 - failed to create account
+2018-08-20 12:09:54 DEBUG LoginScreen:23 - started login screen
+2018-08-20 12:32:55 TRACE Launcher:11 - trace log
+2018-08-20 12:32:55 DEBUG Launcher:12 - debug log
+2018-08-20 12:32:55 INFO  Launcher:13 - info log
+2018-08-20 12:32:55 WARN  Launcher:14 - warn log
+2018-08-20 12:32:55 ERROR Launcher:15 - error log
+2018-08-20 12:32:55 FATAL Launcher:16 - fatal log
+2018-08-20 12:32:55 DEBUG LoginScreen:23 - started login screen
+2018-08-20 12:33:01 INFO  LoginScreen:39 - user succefully logged in
+2018-08-20 12:33:01 INFO  LoginScreen:40 - welcome User [id=4, username=Tyler421, password=null, firstName=Tyler, lastName=Couzens, accounts=null]

@@ -28,27 +28,28 @@ public class ViewAccountScreen implements Screen {
 		}
 		System.out.println("enter the name of the account you want to open");
 		
-		String selectedAccount = scan.nextLine();
-		Account a = new Account();
+//Needs new implementation:
+//		String selectedAccount = scan.nextLine();
+//		Account a = new Account();
+//
+//		if(accounts.contains(selectedAccount)) {
+//		 a = ad.findByUserId(selectedAccount);
+//			if (a == null) {
+//			System.out.println("account file not found");
+//			return this;
+//			}
+//			currentValues.currentAccount = a;
+//			System.out.println("");
+//			System.out.println(a.getAccountName() + "|" + a.getAccountType() + "|" + a.getBalance());
+//			System.out.println("");
+//			return this;
+//		}
+//		else {
+//			System.out.println("You did not select one of your accounts");
+//			return this;
+//		}
 
-		if(accounts.contains(selectedAccount)) {
-		 a = ad.findByAccountName(selectedAccount);
-			if (a == null) {
-			System.out.println("account file not found");
-			return this;
-			}
-			currentValues.currentAccount = a;
-			System.out.println("");
-			System.out.println(a.getAccountName() + "|" + a.getAccountType() + "|" + a.getBalance());
-			System.out.println("");
-			return this;
-		}
-		else {
-			System.out.println("You did not select one of your accounts");
-			return this;
-		}
-
-		
+		return this;
 
 	}
 
