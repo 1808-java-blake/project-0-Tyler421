@@ -1,13 +1,11 @@
 package com.revature.screens;
 
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
-import java.awt.image.BufferedImage;
+
 import java.util.List;
 import java.util.Scanner;
 
 import com.revature.beans.Account;
-import com.revature.beans.Transaction;
+
 import com.revature.daos.AccountDao;
 import com.revature.daos.TransactionDao;
 import com.revature.util.AppState;
@@ -22,7 +20,7 @@ public class HomeScreen implements Screen {
 		System.out.println("");
 		System.out.println("Welcome to SPACE BALLS THE BANK!");
 		System.out.println("");
-		System.out.println("Please choose from following options:");
+		System.out.println("Please choose from the following options:");
 		System.out.println("Enter 1 to deposit space bucks");
 		System.out.println("Enter 2 to withdraw space bucks");
 		System.out.println("Enter 3 to view all accounts");

@@ -30,7 +30,7 @@ public class RegisterUserScreen implements Screen {
 			log.info("created user " + u);
 
 		} catch (NumberFormatException e) {
-			System.out.println("Invalid number");
+			log.error("Invalid number");
 		}
 
 		return new LoginScreen();
