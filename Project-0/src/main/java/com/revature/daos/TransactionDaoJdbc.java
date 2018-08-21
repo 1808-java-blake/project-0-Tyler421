@@ -7,7 +7,6 @@ import java.sql.SQLException;
 
 import org.apache.log4j.Logger;
 
-import com.revature.beans.Account;
 import com.revature.beans.Transaction;
 import com.revature.util.ConnectionUtil;
 

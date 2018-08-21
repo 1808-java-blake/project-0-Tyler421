@@ -20,6 +20,7 @@ public class LoginScreen implements Screen {
 	public Screen start() {
 
 		log.debug("started login screen");
+		System.out.println("");
 		System.out.println("Welcome to SPACE BALLS THE LOGIN SCREEN");
 		System.out.println("");
 		System.out.println("Enter Username or type Register to sign up: ");
@@ -28,7 +29,7 @@ public class LoginScreen implements Screen {
 			return new RegisterUserScreen();
 		}
 		if ("admin".equalsIgnoreCase(username)) {
-			System.out.println("enter the admin password (hint: something an idiot would have on his luggage)");
+			System.out.println("enter the admin password (hint: the president's combination on his luggage)");
 			String password = scan.nextLine();
 			if ("12345".equals(password)) {
 				return new AdminScreen();
@@ -43,9 +44,9 @@ public class LoginScreen implements Screen {
 		if (currentUser != null) {
 			state.setCurrentUser(currentUser);
 			state.setCurrentAccount(currentAccount);
-			// currentValues.currentAccount = null;
+
 			log.info("user succefully logged in");
-			log.info("welcome " + currentUser);
+			//log.info("welcome " + currentUser);
 			return new HomeScreen();
 		}
 

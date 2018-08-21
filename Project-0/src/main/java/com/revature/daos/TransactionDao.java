@@ -1,6 +1,5 @@
 package com.revature.daos;
 
-import com.revature.beans.Account;
 import com.revature.beans.Transaction;
 
 public interface TransactionDao {
