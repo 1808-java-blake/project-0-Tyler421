@@ -5,13 +5,23 @@ import java.util.List;
 import com.revature.beans.Account;
 
 public interface AccountDao {
-public static final AccountDao currentAccountDao = new AccountDaoJdbc();
-	
-	int createAccount(Account u);
+	public static final AccountDao currentAccountDao = new AccountDaoJdbc();
+
+	Account viewAllAccounts();
+
+	Account findByAccountName(String accountName);
+
+	Account getBankAccount(int id);
+
+	void createAccount(Account u);
+
 	List<Account> findByUserId(int userId);
-	List<Account> findByAccountName(String accountName);
+
+
 	void updateAccount(Account u);
+
 	void deleteAccount(Account u);
 
-}
+	void updateUser(Account ad);
 
+}

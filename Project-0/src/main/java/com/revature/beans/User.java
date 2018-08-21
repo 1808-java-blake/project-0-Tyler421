@@ -3,14 +3,13 @@ package com.revature.beans;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class User implements Serializable{
-	
-	
+public class User implements Serializable {
+
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 6546033281973563358L;
-	
+
 	private int id;
 	private String username;
 	private String password;
@@ -31,9 +30,9 @@ public class User implements Serializable{
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.admin = admin;
-		
+
 	}
-	
+
 	public int getId() {
 		return id;
 	}
@@ -41,21 +40,18 @@ public class User implements Serializable{
 	public void setId(int id) {
 		this.id = id;
 	}
-	
+
 	public ArrayList<String> getAccounts() {
 		return accounts;
 	}
 
 	public void addaccount(String account) {
-		if(accounts == null) {
+		if (accounts == null) {
 			this.accounts = new ArrayList<>();
 		}
 		this.accounts.add(account);
-		
+
 	}
-	
-
-
 
 	public boolean isAdmin() {
 		return admin;
@@ -145,8 +141,8 @@ public class User implements Serializable{
 
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", username=" + username + ", password=" + password + ", firstName=" + firstName + ", lastName="
-				+ lastName + ", accounts=" + accounts + "]";
+		return "User [id=" + id + ", username=" + username + ", password=" + password + ", firstName=" + firstName
+				+ ", lastName=" + lastName + ", accounts=" + accounts + "]";
 	}
 
 }

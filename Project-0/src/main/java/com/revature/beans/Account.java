@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 public class Account implements Serializable {
-	
+
 	/**
 	 * 
 	 */
@@ -14,9 +14,9 @@ public class Account implements Serializable {
 	private String accountName;
 	private double balance;
 	private String accountType;
-	private ArrayList<String> TransHistory;
-	//private CurrentValues currentValues = CurrentValues.getInstance();
-	
+
+	// private CurrentValues currentValues = CurrentValues.getInstance();
+
 	public int getUserId() {
 		return userId;
 	}
@@ -24,7 +24,7 @@ public class Account implements Serializable {
 	public void setUserId(int userId) {
 		this.userId = userId;
 	}
-	
+
 	public int getAccountId() {
 		return accountId;
 	}
@@ -33,7 +33,6 @@ public class Account implements Serializable {
 		this.accountId = accountId;
 	}
 
-	
 	public String getAccountName() {
 		return accountName;
 	}
@@ -58,14 +57,6 @@ public class Account implements Serializable {
 		this.accountType = accountType;
 	}
 
-	public ArrayList<String> getTransHistory() {
-		return TransHistory;
-	}
-
-	public void setTransHistory(ArrayList<String> transHistory) {
-		TransHistory = transHistory;
-	}
-
 	public static long getSerialversionuid() {
 		return serialVersionUID;
 	}
@@ -76,7 +67,7 @@ public class Account implements Serializable {
 		int result = 1;
 		result = prime * result + userId;
 		result = prime * result + accountId;
-		result = prime * result + ((TransHistory == null) ? 0 : TransHistory.hashCode());
+
 		result = prime * result + ((accountName == null) ? 0 : accountName.hashCode());
 		result = prime * result + ((accountType == null) ? 0 : accountType.hashCode());
 		long temp;
@@ -98,11 +89,7 @@ public class Account implements Serializable {
 			return false;
 		if (accountId != other.accountId)
 			return false;
-		if (TransHistory == null) {
-			if (other.TransHistory != null)
-				return false;
-		} else if (!TransHistory.equals(other.TransHistory))
-			return false;
+
 		if (accountName == null) {
 			if (other.accountName != null)
 				return false;
@@ -120,44 +107,24 @@ public class Account implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Account [userId=" + userId + "accountId=" + accountId + ", accountName=" + accountName + ", balance=" + balance + ", accountType=" + accountType
-				+ ", TransHistory=" + TransHistory + "]";
+		return "Account [userId=" + userId + "accountId=" + accountId + ", accountName=" + accountName + ", balance="
+				+ balance + ", accountType=" + accountType + "]";
 	}
 
-	public Account(int userId, int accountId, String accountName, double balance, String accountType, ArrayList<String> transHistory) {
+	public Account(int userId, int accountId, String accountName, double balance, String accountType,
+			ArrayList<String> transHistory) {
 		super();
 		this.userId = userId;
 		this.accountId = accountId;
 		this.accountName = accountName;
 		this.balance = balance;
 		this.accountType = accountType;
-		TransHistory = transHistory;
+
 	}
 
 	public Account() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	
-//	public void depositFunds(String depAmount) {
-//		this.setBalance(this.getBalance() + Integer.valueOf(depAmount));
-//		this.addTransHistory("New Balance after a deposit of " + depAmount + " = $ " + this.getBalance());
-//		System.out.println("New Balance after deposit = $ " + this.getBalance());
-//
-//		
-//	}
-
-//	public void withdrawFunds(String withAmount) {
-//		if(Integer.valueOf(withAmount) > this.getBalance()) {
-//			System.out.println("Can't withdraw that much, current balance is $ " + this.getBalance());
-//			return;
-//		}
-//		this.setBalance(this.getBalance() - Integer.valueOf(withAmount));
-//		this.addTransHistory("New Balance after a withdraw of " + withAmount + " = $ " + this.getBalance());
-//		System.out.println("New Balance after withdraw = $ " + this.getBalance());
-//		
-//		
-//	}
-	
 
 }

@@ -30,13 +30,10 @@ public class RegisterAccountScreen implements Screen {
 			a.setAccountType(scan.nextLine());
 			a.setBalance(0.00);
 			a.setUserId(currentUser.getId());
-			int accountId = ad.createAccount(a);
-			if (accountId == 0) {
-				log.error("failed to create account");
-				return new LoginScreen();
-			}
-			a.setAccountId(accountId);
-			log.info("created account" + a);
+
+			ad.createAccount(a);
+
+			log.info("created account " + a);
 		} catch (NumberFormatException e) {
 			System.out.println("Invalid number");
 
